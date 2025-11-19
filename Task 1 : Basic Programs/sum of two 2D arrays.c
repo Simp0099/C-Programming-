@@ -25,14 +25,13 @@ int main(){
         }
     }
     
-    // Calculating sum of two arrays
+
     for(i=0; i<r; i++){
         for(j=0; j<c; j++){
             sum[i][j] = arr1[i][j] + arr2[i][j];
         }
     }
     
-    // Displaying the sum array
     printf("Sum of the two arrays:\n");
     for(i=0; i<r; i++){
         for(j=0; j<c; j++){
